@@ -584,6 +584,12 @@ opacity:1;
   z-index: 1;
 }
 
+.text_back{
+	margin-top: -152px
+}
+
+
+
 .card-flip .back {
   position: relative;
   z-index: 0;
@@ -594,18 +600,93 @@ opacity:1;
   transform: rotateY(180deg);
 }
 
-/* tarjetas hover */
-.borderprue1{
-background-color:  red;
+.grey{
+	background-color: #E5E5E5;
+	
 }
 
-.borderprue2{
-background-color: black;
+.container___footer {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color: #E5E5E5;
+    margin-top: 13vh;
 }
 
-.borderprue3{
-	background-color: yellow;
+.row___footer {
+    padding-left: 10vw;
+    padding-top: 3vh;
 }
+
+.footer___ul___box1 {
+    list-style-type: none;
+    padding-left: 0rem;
+    line-height: 1.2;
+}
+
+.footer__h1___box1 {
+    font-size: 20px;
+    margin-bottom: 2vh;
+    color: #686767;
+    font-weight: 700;
+}
+
+.footer___li___box1{
+	margin-top: 1vh;
+}
+
+.footer___a___box1{
+	text-decoration: none;
+	font-family: 'Roboto Condensed';
+	font-size: 15px;
+	color: #686767;
+	
+}
+
+.line__footer__text{
+	transform: scaleX(0);
+}
+
+.footer___a___box1:hover {
+	font-weight: 600;
+	color: #686767;
+	
+}
+
+.footer___a___box1:hover .line__footer__text{
+	content: "";
+	position: absolute;
+	width: 6%;
+	height: 5px;
+	background-color: #D50780 ;
+	z-index: 1;
+	transform: scaleX(1);
+	transform-origin: left;
+	transition: transform 0.5s;
+	border-radius: 50px;
+
+}
+
+.hr__line {
+    height: 0.2vh;
+    background-color: #686767;
+    opacity: 1;
+}
+
+.footer__h1{
+	font-weight: 400;
+	font-size: 15px;
+	color: #686767;
+	text-align: center;
+}
+
+.footer__h1__2{
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 6vh;
+	color: #686767;
+	text-align: center;
+}
+
 
 
 /*----------------------------------------------- About me styles */

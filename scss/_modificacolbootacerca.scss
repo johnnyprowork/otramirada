@@ -37,6 +37,13 @@ a.obj___static{
    
 }
 
+.card-block_background .front{
+    display: none;
+}
+.card-block_background .back{
+    margin-top: 10px;
+    background-color:red;
+}
 .card-title1{
     font-family: 'Poppins';
    font-size: 1em;
@@ -56,3 +63,4 @@ a.obj___static{
     color: #000000;
     font-style: italic;
 }
+
