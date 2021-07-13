@@ -440,27 +440,29 @@ button.learn-more.change5.active{
 	margin-top: 50px;
 }
 
-
+.reset__tag{
+	text-decoration: none;
+}
 
 .ajust___hover{
-display: absolute;
+	display: absolute;
 	height: 500px;
 	width: 100%;
-	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
+	
 }
 
 .ajust___hover2{
-display: absolute;
+	display: absolute;
 	height: 300px;
 	width: 100%;
-	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
+
 }
 
 .ajust___hover3{
-display: absolute;
+	display: absolute;
 	height: 360px;
 	width: 100%;
-	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
+
 }
 
 .gallery__img{
@@ -472,6 +474,7 @@ display: absolute;
 	height: 500px;
 	width: 100%;
 	object-fit: cover;
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
 
 
 }
@@ -480,6 +483,7 @@ display: absolute;
 	height: 300px;
 	width: 100%;
 	object-fit: cover;
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%)
 
 }
 
@@ -488,6 +492,7 @@ display: absolute;
 	width: 100%;
 	object-fit: cover;
   object-position: top;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%)
 
 }
 
@@ -511,7 +516,7 @@ display: absolute;
 .overlay__img__gallery{
 height: 500px;
 opacity: 0;
-transition: .5s ease;
+transition: .3s ease;
 background-color: #FCEA21;
 transform: translate(0%, -100.8%)
 }
@@ -535,13 +540,13 @@ transform: translate(0%, -100.8%)
 .overlay__img__gallery2{
 height: 300px;
 opacity: 0;
-transition: .5s ease;
 background-color: #FCEA21;
 transform: translate(0%, -101.35%)
 }
 
 .gallery___item:hover .overlay__img__gallery2 {
   opacity: 1;
+  transition: 0.3s;
 }
 
 .gallery___text___ima2{

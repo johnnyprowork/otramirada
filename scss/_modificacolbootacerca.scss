@@ -1,4 +1,18 @@
 
+ html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    }
+
+.body {
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    }
+
+
 .row{
     width: 100%
 }
@@ -64,3 +78,10 @@ a.obj___static{
     font-style: italic;
 }
 
+.menu-wrapper {
+    display: none;  
+}
+
+.logo__otramirada__hamburger{
+    display: none;
+}
