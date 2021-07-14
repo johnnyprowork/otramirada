@@ -1,0 +1,36 @@
+
+.div___container{
+	display: block;
+	width: 70%;
+	height: 100%;
+	text-align: center;
+	margin-left: 13%;
+}
+
+.container___tittle{
+	color: $color-pink;
+    font-size: $tittle-size;
+    @include font-weight-po(bold);
+    line-height: 0.9;
+    width: 50vw;
+    margin-top: 30%;
+
+}
+
+.image__hand {
+    width: 20%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -30%;
+    margin-left: -13%;
+}
+
+
+.container___tittle___textbody{
+	@include font-weight-po(medium);
+    white-space: pre-line;
+    font-size: $body-text;
+    line-break: auto;
+    line-height: 35pt;
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: $tamaño5){
+	.line__subtittle{
+	display: none;
+	}
+
+}
+@media screen and (max-width: $tamaño6){
+	.container___tittle2 {
+    color: #D50780;
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 0.9;
+    width: 50vw;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 17%;
+	}
+}
+
+
+@media screen and (max-width: $tamaño8){
+	.container___subtittle1 {
+    margin-top: 15%;
+    font-size: 5vw;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1;
+    color: #000000;
+    margin-left: 6%;
+	}
+
+	.container___subtittle1___design {
+    line-height: 2.5;
+    margin-left: 6%;
+	}
+
+	.container___subtittle1___development {
+    line-height: 2.5;
+    margin-left: 6%;
+	}
+}

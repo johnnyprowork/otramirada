@@ -1,0 +1,63 @@
+@media screen and (max-width: $tamaño7){
+
+
+.div___obj___static {
+    width: 10px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 80px;
+    z-index: 11;
+	
+	.obj___static {
+    transform:  $menuizquierda;
+    text-orientation: upright;
+    position: fixed;
+    background-color: $color-pink;
+    color: $color-white;
+    padding: 5px;
+    font-size: $font-size-menuizquierda-responsive;
+    bottom: 118px;
+    left: -30px;
+    transition: 0.3s;
+    box-shadow: $sombra-menu rgba(0, 0, 0, 0.61);
+    }
+	.obj___static:hover {
+    transition: 0.5s;
+    padding: 14px;
+    background-color: $color-on;
+	}
+	.obj___static.active:hover {
+    padding: 7px;
+	}
+}
+.background__follow.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 15px 160px;
+    position: fixed;
+    left: -25px;
+    top: -3px;
+    transition: 0.3s;
+    z-index: -1;
+    }
+
+.obj___static___follow2 {
+    @include follow;
+    padding: 10px;
+    bottom: 220px;
+
+	}
+	
+	.obj___static___follow3 {
+    @include follow;
+    padding: 5px;
+    bottom: 329px;
+
+	}
+	.obj___static___follow4 {
+    @include follow;
+    padding: 5px;
+    bottom: 422px;
+	}
+}

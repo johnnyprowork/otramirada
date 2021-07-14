@@ -1,0 +1,103 @@
+.div___obj___static{
+  width: 10px;
+  position: absolute;
+  z-index: 5;
+  margin-top: 600px;
+  margin-left:  80px;
+
+    .obj___static{
+      transform:  $menuizquierda;
+      text-orientation: upright;
+      position: fixed;
+      background-color: $color-pink;
+      color: $color-white;
+      padding: 10px;
+      font-size: $font-size-menuizquierda;
+      bottom: 220px;
+      left: -30px;
+      transition: 0.3s;
+      box-shadow: $sombra-menu rgba(0, 0, 0, 0.61);
+    }
+
+    .obj___static:hover {
+        transition: 0.5s;
+        padding: 20px;
+        background-color: $color-on;
+        
+    }
+
+    .obj___static.active{
+        background-color: $color-click;
+        transition: 0.5s;
+        z-index: 40;
+    }
+
+    .obj___static.active:hover{
+        padding: 10px;
+    }
+
+}
+
+
+.background__follow.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 20px 160px;
+    position: fixed;
+    left: -25px;
+    top: -3px;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.obj___static___follow2{
+    @include follow;
+    padding: 10px;
+    bottom: 340px;
+
+}
+
+.obj___static___follow2:hover{
+    @include follow_hover;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;  
+}
+
+.obj___static___follow3{
+    @include follow;
+    padding: 5px;
+    bottom: 440px;
+
+}
+.obj___static___follow3:hover{
+    @include follow_hover;
+}
+
+
+.obj___static___follow4{
+    @include follow;
+    padding: 5px;
+    bottom: 540px;
+}
+
+.obj___static___follow4:hover{
+    @include follow_hover;
+}
+
+.obj___static___follow2.active{
+    @include follow_active;
+}
+
+.obj___static___follow3.active{
+    @include follow_active;
+}   
+
+.obj___static___follow4.active{
+    @include follow_active;
+}
+
+a.obj___static{
+    text-decoration:none;
+    color: $color-white;
+}

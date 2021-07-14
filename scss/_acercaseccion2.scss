@@ -1,0 +1,30 @@
+.container___tittle2{
+	color: $color-pink;
+    font-size: $tittle-size2;
+    @include font-weight-po(semi-bold);
+    line-height: 0.9;
+    width: 50vw;
+    margin-top: 20%;
+}
+.container___subtittle1{
+	margin-top: 15%;
+	font-size: $body-text2;
+    @include font-weight-po(regular);
+    font-style: italic;
+    line-height: 1;
+    color: $color-black;
+}
+
+.line__subtittle{
+    padding-top: 40%;
+    height: 80%;
+    padding-left: 45%;
+    height: 15vw;
+}
+.container___subtittle1___design{
+    line-height: 2.5;
+}
+
+.container___subtittle1___development{
+    line-height: 2.5;
+}

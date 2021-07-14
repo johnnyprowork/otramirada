@@ -1,0 +1,88 @@
+.grey{
+	background-color: $color-grey;
+	
+}
+
+.container___footer {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color: $color-grey;
+    margin-top: 13vh;
+}
+
+.row___footer {
+    padding-left: 10vw;
+    padding-top: 3vh;
+}
+
+.footer___ul___box1 {
+    list-style-type: none;
+    padding-left: 0rem;
+    line-height: 1.2;
+}
+
+.footer__h1___box1 {
+    font-size: $font-size-footer-box;
+    margin-bottom: 2vh;
+    color: $color-grey-dark;
+    @include font-weight-po(bold);
+}
+
+.footer___li___box1{
+	margin-top: 1vh;
+}
+
+.footer___a___box1{
+	text-decoration: none;
+	font-family: 'Roboto Condensed';
+	font-size: $font-size-footer-h1;
+	color: $color-grey-dark;
+	
+}
+
+.line__footer__text{
+	transform: scaleX(0);
+}
+
+.footer___a___box1:hover {
+	@include font-weight-po(semi-bold);
+	color: $color-grey-dark;
+	
+}
+
+.footer___a___box1:hover .line__footer__text{
+	content: "";
+	position: absolute;
+	width: 6%;
+	height: 5px;
+	background-color: $color-pink;
+	z-index: 1;
+	transform: scaleX(1);
+	transform-origin: left;
+	transition: transform 0.5s;
+	border-radius: 50px;
+
+}
+
+.hr__line {
+    height: 0.2vh;
+    background-color: $color-grey-dark;
+    opacity: 1;
+}
+
+.footer__h1{
+	font-weight: 400;
+	font-size: $font-size-footer-h1;
+	color: $color-grey-dark;
+	text-align: center;
+}
+
+.footer__h1__2{
+	font-weight: 600;
+	font-size: $font-size-footer-h1;
+	margin-bottom: 6vh;
+	color: $color-grey-dark;
+	text-align: center;
+}
+
+

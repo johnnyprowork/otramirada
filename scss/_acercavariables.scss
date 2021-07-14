@@ -1,0 +1,91 @@
+// colores
+$color-pink: #D50780;
+$color-yellow: #FCEA21;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-grey: #E5E5E5;
+$color-grey-dark: #686767;
+$color-fondoimagen: #D50780;
+
+//colores boton estatico
+
+//boton seleccion
+$color-on:#FF39AF;
+//boton click
+$color-click:#890B5F;
+
+
+
+
+//sombras
+$sombra-menu: 0px 0px 14px 0px;
+
+//sombras menu hamburguesa
+$sombra-menu-burguer: 0 5px 10px;
+
+//tipografias 
+$po: 'Poppins';
+$rob: 'Roboto Condensed';
+$defaultfont: 'sans-serif';
+
+//estilo tipografias 
+//po
+$styles:("italic": italic, 
+		 "normal":initial
+		 );
+
+
+
+//decoracion de texto
+$textobasico: none;
+
+
+//sin display 
+$invisible: none;
+
+
+
+//titulos - acerca de mi - seccion1
+$tittle-size: 9vw;
+//cuerpo-de-texto - acerca de mi - seccion1
+$body-text: 12pt;
+
+
+//titulos - acerca de mi - seccion2
+$tittle-size2: 7vw;
+//cuerpo-de-texto - acerca de mi - seccion2
+$body-text2: 5vw;
+
+
+
+// menu -- tamaño tipografia 
+$font-size-nav : 18px;
+// menuestatico -- tamaño tipografia boton
+$font-size-menuizquierda : 18px;
+// menuestatico -- tamaño tipografia boton responsivo
+$font-size-menuizquierda-responsive : 16px;
+// menuestatico -- tamaño tipografia sub-boton
+$font-size-menuizquierda-sub : 14px;
+// cabezote cuerpo de texto -- tamaño tipografia
+$font-size-cuerpodetexto: 34px;
+// boton -- tamaño tipografia
+$font-size-boton: 30px;
+// footer -- tamaño tipografia-hover
+$font-size-footer-box: 20px;
+// footer -- tamaño tipografia
+$font-size-footer-h1: 15px;
+
+
+//menu estatico -- Giro a la izquierda para 
+$menuizquierda: rotate(270deg);
+
+
+//@media queries tamaños 
+$tamaño1: 1440px;
+$tamaño2: 1403px;
+$tamaño3: 1278px;
+$tamaño4: 1200px;
+$tamaño5: 991px;
+$tamaño6: 844px;
+$tamaño7: 580px;
+$tamaño8: 414px;
