@@ -6,6 +6,7 @@
 		<meta name="description" content="categoría de otra mirada que muestra todos mis proyectos de diseño">
    		<meta name="keywords"  content="ILUSTRACIÓN, IDENTIDAD, MARCA,EDITORIAL, PORTAFOLIO GRÁFICO, 3D, PAGINAS WEB, DESARROLLO WEB">
 		<link rel="stylesheet" type="text/css" href="css/estilostodo.css">
+		<link rel="stylesheet" type="text/css" href="libreria/bootstrap5/css/bootstrap-grid.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -20,6 +21,36 @@
 	<body class="body">
 
 	<header >
+
+		<div class="menu-wrapper">
+		  <div class="material-menu">
+		    <div class="material-btn">
+		      <div class="material-hamburguer">
+		        <div class="material-patty"></div>
+		        <div class="material-patty"></div>
+		        <div class="material-patty"></div>
+		      </div>
+		    </div>
+
+		    <div class="material-content">
+		      <nav>
+		        <ul>
+		          <li><a href="index.html">Inicio</a></li>
+		          <li><a href="acercademi.html">Acerca de mi</a></li>
+		          <li><a href="mundodiseno.html">Mundo Diseño</a></li>
+		          <li><a href="no-encontrada.html">Mundo web</a></li>
+		          <li><a href="servicios.html">Servicios</a></li>
+		          <li><a href="contacto.html">Contacto</a></li>
+		        </ul>
+		      </nav>
+		    </div>
+		  </div>
+		</div>
+		<div class="logo__otramirada__hamburger">
+			<a href="index.html" class="nav___a___img ">
+				    		 <img class="nav___a___img " src="img/logo_om.png" alt="" >    	
+			</a>
+		</div>
 			<div id="menu__scroll" >
 			
 
@@ -30,8 +61,7 @@
 					<ul class="nav___ul___left ">  
 						<li class="nav___li">
 							<a href="index.html" title="" >Inicio
-								<div class="background__menu">
-								</div>
+								
 							</a>
 						</li>
 						<li class="nav___li">
@@ -39,6 +69,8 @@
 						</li>
 						<li class="nav___li">
 							<a href="mundodiseno.html" title="">Mundo Diseño</a>
+							<div class="background__menu">
+								</div>
 						</li>
 						
 						
@@ -53,7 +85,7 @@
 					
 					<ul class="nav___ul___right" >
 						<li class="nav___li">
-							<a href="mundoweb.html" title="">Mundo Web</a>
+							<a href="no-encontrada.html" title="">Mundo Web</a>
 						</li>  
 						
 						<li class="nav___li">
@@ -68,21 +100,35 @@
 		</div>
 	</header>
 
-	<div class="div___container___design "> 
+<div class="div___container___design "> 
 		<img src="img/traba_dise.png" alt="" class="div___container___design__im1">
 		<p class="div___container___design___p1">Trabajos</p>
 		<p class="div___container___design___p2">de diseño</p>
-		
+		<div class="div___container___sub">
+			<h2 class="div___container___text">En mundo diseño encontraras los proyectos realizados a partir de mis conocimientos y experiencia como diseñador Gráfico. Mis trabajos están organizados en categorías para que dependiendo de tu área de interés te des una pasada y le des un vistazo a mis diseños. </h2>
+		</div>
+	</div>
 
-
+	
+	<div class="div___container___banner">
+		<hr class="line__banner"></hr>
+		<hr class="line__banner2"></hr>
+		<div class="container__banner___text">
+			<h4 class="banner__text">-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería</h4>
+		</div>
+		<div class="container__banner___text">
+			<h4 class="banner__text2">-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería</h4>
+		</div>
+				
 	</div>
 
 		<div class ="div___obj___static">
 			<button class="obj___static" href="">Sigueme</button>
-			<div class="background__follow">
-				
-			</div>
-			<a class="obj___static___follow2" href="https://www.behance.net/alexco125f25" target= black>Behance</a>
+			
+			<a class="obj___static___follow2" href="https://www.behance.net/alexco125f25" target= black>Behance
+				<div class="background__follow">
+				</div>
+			</a>
 			<a class="obj___static___follow3" href="https://www.instagram.com/johnnyargote/" target= black>Instagram</a>
 			<a class="obj___static___follow4" href="https://wa.me/573108644980" target= black>Whatsapp</a>
 		</div>
@@ -93,10 +139,10 @@
 			<p class="buttons__categories"> Categorías: </p>
 		</a>
 	    <button class="learn-more change1" role="link"  onclick="window.location='#specific_part_all'">Todo</button>
-	    <button class="learn-more change2">Branding</button>
-	    <button class="learn-more change3">Ilustración</button>
-	    <button class="learn-more change4">Modelado 3D</button>
-	    <button class="learn-more change5">Editorial</button>
+	    <button class="learn-more change2" role="link"  onclick="window.location.href='branding.html#specific_part_all' ">Branding</button>
+	    <button class="learn-more change3" role="link"  onclick="window.location.href='ilustracion.html#specific_part_all' ">Ilustración</button>
+	    <button class="learn-more change4" role="link"  onclick="window.location.href='modelado3d.html#specific_part_all' ">Modelado 3D</button>
+	    <button class="learn-more change5" role="link"  onclick="window.location.href='editorial.html#specific_part_all' ">Editorial</button>
 	</div>
 	
 
@@ -110,6 +156,7 @@
 		<div class="ajust___hover">
 			<a href="#" class="reset__tag">
 				<img src="img/condor.png" class="gallery__img2" >
+				<footer class="gallery___text___ima__res">Ilustración deportiva</footer>
 				<p class="gallery__tittle__left">Destacado, Ilustración: Abril 28 del 2021</p>
 				
 				<div class="overlay__img__gallery"> 
@@ -179,12 +226,14 @@
 		<div class="ajust___hover">
 			<a href="#" class="reset__tag">
 				<img src="img/condores_branding.png" class="gallery__img2" >
+				<footer class="gallery___text___ima__res">Marca deportiva</footer>
 				<p class="gallery__tittle__left2">Branding: Abril 28 del 2021</p>
-				<div class="overlay__img__gallery"> 
-		    		<footer class="gallery___text___ima">Proyecto 2</footer>
+				<div class="overlay__img__gallery2"> 
+		    		<footer class="gallery___text___ima">Marca deportiva</footer>
 		  		</div>
 	  		</a>
 	  	</div>
+
 
 		
 			
@@ -194,9 +243,10 @@
 			<div class="ajust___hover">
 				<a href="#" class="reset__tag">
 					<img src="img/sigurd_cerveza.png" class="gallery__img2" >
+					<footer class="gallery___text___ima__res">Cerveza artesanal</footer>
 					<p class="gallery__tittle__left3">Branding: Abril 28 del 2021</p>
-					<div class="overlay__img__gallery"> 
-			    		<footer class="gallery___text___ima">Proyecto 3</footer>
+					<div class="overlay__img__gallery3"> 
+			    		<footer class="gallery___text___ima">Cerveza artesanal</footer>
 			  		</div>
 		  		</a>
 	  	</div>
@@ -222,9 +272,10 @@
 		<div class="ajust___hover2">
 			<a href="#" class="reset__tag">
 				<img src="img/prime_cleaning.png" class="gallery__img3" >
-				<footer class="gallery__tittle__left4">Branding: Abril 28 del 2021</footer>
-				<div class="overlay__img__gallery2"> 
-		    		<footer class="gallery___text___ima2">Proyecto 4</footer>
+				<footer class="gallery___text___ima__res">Empresa de limpieza</footer>
+				<p class="gallery__tittle__left4">Branding: Abril 28 del 2021</p>
+				<div class="overlay__img__gallery4"> 
+		    		<footer class="gallery___text___ima2">Empresa de limpieza</footer>
 		  		</div>
 	  		</a>
 	  	</div>
@@ -248,9 +299,10 @@
 		<div class="ajust___hover3">
 			<a href="#" class="reset__tag">
 				<img src="img/stiff_ilustracion.png" class="gallery__img4" >
+				<footer class="gallery___text___ima__res">Ilustración de escena</footer>
 				<p class="gallery__tittle__left5">Ilustración: Abril 28 del 2021</p>
-				<div class="overlay__img__gallery3"> 
-		    		<footer class="gallery___text___ima3">Proyecto 5</footer>
+				<div class="overlay__img__gallery5"> 
+		    		<footer class="gallery___text___ima3">Ilustración de escena</footer>
 		  		</div>
 	  		</a>
 	  	</div>	
@@ -260,34 +312,130 @@
 		<div class="ajust___hover2">
 			<a href="#" class="reset__tag">
 				<img src="img/fisioterapia_branding.png" class="gallery__img3" >
+				<footer class="gallery___text___ima__res">Identidad para fisioterapeuta</footer>
 				<p class="gallery__tittle__left6">Branding: Abril 28 del 2021</p>
-				<div class="overlay__img__gallery2"> 
-		    		<footer class="gallery___text___ima2">Proyecto 6</footer>
+				<div class="overlay__img__gallery6"> 
+		    		<footer class="gallery___text___ima2">Identidad para fisioterapeuta</footer>
 		  		</div>
 	  		</a>
 	  	</div>	
 	</div>
 
-	
+
+
+	</section>
+	<div class="container___pagination">
+		<p class="pagination___previous">Anterior</p>
+		<a href="todo.html#specific_part_all" class="pagination___one">1</a>
+		<a href="todo-2.html#specific_part_all" class="pagination___two">2</a>
+		<a href="todo-3.html#specific_part_all" class="pagination___three">3</a>
+		<a href="todo-2.html#specific_part_all" class="pagination___next">Siguiente</a>
+	</div>
+	<div class="div___container___banner banner__2__margin">
+		<hr class="line__banner"></hr>
+		<hr class="line__banner2"></hr>
+		<div class="container__banner___text">
+			<h4 class="banner__text">-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería</h4>
+		</div>
+		<div class="container__banner___text">
+			<h4 class="banner__text2">-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería-Galería</h4>
+		</div>
+				
+	</div>
+
+
+	<div class="div___container___yellow">
+		<img src="img/pie_mundodiseño.png" class="footer___image">
+	</div>
+
+	<div class="grey">
+	<div class="container container___footer">
+		<div class="row row___footer">
+			<div class="col-xs-12 col-sm-4 col-md-4 ">
+				<h1 class="footer__h1___box1">Menu:</h1>
+				<ul class="footer___ul___box1 ">
+					<li class="footer___li___box1 ">
+						<a class="footer___a___box1 " href="index.html">Inicio <div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="acercademi.html">Acerca de mi<div class="line__footer__text"></div></a>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="mundodiseno.html">Mundo diseño<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="no-encontrada.html">Mundo web<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="servicios.html">Servicios<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="contacto.html">Contacto<div class="line__footer__text"></div></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 ">
+				<h1 class="footer__h1___box1">Diccionario:</h1>
+				<ul class="footer___ul___box1">
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="todo.html #specific_part_all ">Diseño<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="branding.html #specific_part_all">Marca<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="ilustracion.html #specific_part_all">Ilustración<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="modelado3d.html #specific_part_all">Modelado 3D<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="no-encontrada.html">UI/UX diseño<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="no-encontrada.html">Desarrollo Web<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="no-encontrada.html">Landing Page<div class="line__footer__text"></div></a>
+					</li>
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" href="no-encontrada.html">Programación<div class="line__footer__text"></div></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 ">
+				<h1 class="footer__h1___box1">Hoja de vida</h1>
+				<hr class="hr__line">
+				<ul class="footer___ul___box1">
+					<li class="footer___li___box1">
+						<a class="footer___a___box1" download="hojadevida.jpg"href="descargar/hojadevida.jpg">Descargar<div class="line__footer__text"></div></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			
+		</div>
+		<div class="col-md-8 col-xs-12">
+			<h1 class="footer__h1">National Transaction Corporation is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]
+			</h1>
+			<h1 class="footer__h1__2">© All right Reversed.Sunlimetech</h1>
+		</div>
+		<div class="col-md-2">
+			
+		</div>
 	</div>
 
 
 
-
-
-
-
-	
-	</section>
-
-	<div class="div___container___yellow">
-		<img src="img/pie_mundodiseño.png" class="footer___image">
-		
+	</div>
 		
 </body>
 
 <script src="jquery/jquery-3.6.0.js"> </script>
 <script src="js/onclick.js"></script>
 <script src="js/scrollnav.js"></script>
+<script src="js/menuburger.js"></script>
 
 </html>

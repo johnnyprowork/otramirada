@@ -1,0 +1,15 @@
+.container___tittle2{
+    color: $color-pink;
+    font-size: $tittle-size2;
+    @include font-weight-po(bold);
+    margin-top: 20%;
+    margin-left: -90px;
+    text-align: initial;
+    margin-bottom: 70px;
+}
+
+.size___tittle2{
+    width:60%;
+    margin-left: 26%;
+}
+

@@ -1,0 +1,65 @@
+//grosor tipografias
+//po
+@mixin font-weight-po($weight) {
+	$weight-po: (thin: 100, 
+		     extra-light: 200,
+		     light: 300,
+		     regular: 400,
+		     medium: 500,
+		     semi-bold: 600,
+		     bold: 700,
+		     extra-bold: 800,
+		     black: 900
+		     );
+
+$output: $weight;
+  @if map-has-key($weight-po, $weight) {
+    $output: map-get($weight-po, $weight);
+  }
+  
+  font-weight: $output;
+}
+
+//rob
+@mixin font-weight-rob($weight2) {
+	$weight-rob:(light: 300,
+			     regular:4 00,
+			     bold: 700,
+		     	);
+$output: $weight2;
+  @if map-has-key($weight-rob, $weight2) {
+    $output: map-get($weight-rob, $weight2);
+  }
+  
+  font-weight: $output;
+}
+
+//mixin de opciones de menu estatico
+
+@mixin follow{
+	transform: $menuizquierda;
+  text-orientation: upright;
+  position: fixed;
+  font-size: $font-size-menuizquierda-sub;
+  text-decoration:$textobasico;
+  visibility: hidden;
+  left: -20px;
+  transition: 0.3s;
+  opacity:0.0;
+  color: $color-pink;
+}
+
+@mixin follow_hover{
+    text-decoration-line: overline;
+    text-decoration-color: $color-pink;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+@mixin follow_active{
+	visibility: visible;
+	color: #D50780;
+	opacity:1.0;
+}
+
+

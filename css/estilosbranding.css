@@ -526,7 +526,7 @@ button.learn-more:active::before {
   transform: translate3d(0, 0, -1em);
 
 }
-button.learn-more.change1{
+button.learn-more.change1.active{
  font-family: 'Poppins';
  color: #D50780;
   font-size: 17px;
@@ -535,7 +535,7 @@ button.learn-more.change1{
  
 }
 
-button.learn-more.change2.active{
+button.learn-more.change2{
  font-family: 'Poppins';
  color: #D50780;
   font-size: 17px;
@@ -572,12 +572,12 @@ button.learn-more.change5.active{
 
 
 /*----------------------------------------------- gallery */
-.gallery___container{
-	display: grid;
-	text-align: center;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: repeat(15, 1fr);
-	margin-top: 50px;
+.gallery___container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin-top: 50px;
 }
 
 .reset__tag{
@@ -806,10 +806,19 @@ transform: translate(0%, -101.35%)
 /*--------------------------------------vertical text */
 
 .gallery___item:nth-child(2){
-	grid-column-start: span 3;
-}
-.gallery___item:nth-child(2){
 	grid-row-start: span 3;
+	grid-column-start: span 2;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-right: 30px;
+
+}
+
+.gallery___item:nth-child(4){
+	grid-row-start: span 3;
+	grid-column-start: span 2;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .gallery___item:nth-child(6){
@@ -832,30 +841,11 @@ transform: translate(0%, -101.35%)
 	grid-row-start: span 3;
 }
 
-
-
 .gallery___item:nth-child(14){
-	grid-column-start: span 2;
+	grid-row-start: span 2;
+	grid-column-start: span 3;
+	padding: 20px;
 }
-
-.gallery___item:nth-child(14){
-	grid-row-start: span 3;
-	padding-left: 50px;
-	padding-top: 10px;
-	padding-right: 30px;
-
-}
-
-.gallery___item:nth-child(15){
-	grid-column-start: span 2;
-}
-
-.gallery___item:nth-child(15){
-	grid-row-start: span 3;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 .gallery___item:nth-child(16){
 	grid-row-start: span 3;
 }
@@ -864,25 +854,10 @@ transform: translate(0%, -101.35%)
 	grid-column-start: span 7;
 }
 
-.gallery___item:nth-child(18){
-	grid-column-start: span 7;
-}
-
-.gallery___item:nth-child(19){
-	grid-column-start: span 3;
-}
-
 .gallery___item:nth-child(19){
 	grid-row-start: span 2;
-}
-
-.gallery___item:nth-child(20){
 	grid-column-start: span 3;
-}
-
-.gallery___item:nth-child(20){
-	grid-row-start: span 2;
-	padding: 20px;
+	padding: 30px;
 }
 
 .gallery___item:nth-child(21){
@@ -897,21 +872,7 @@ transform: translate(0%, -101.35%)
 	grid-row-start: span 2;
 }
 
-.gallery___item:nth-child(24){
-	grid-column-start: span 3;
-}
-.gallery___item:nth-child(24){
-	grid-row-start: span 2;
-	padding-right: 20px;
-}
 
-.gallery___item:nth-child(25){
-	grid-column-start: span 3;
-}
-.gallery___item:nth-child(25){
-	grid-row-start: span 2;
-	padding: 30px;
-}
 
 .container___pagination{
 	display: flex;
@@ -940,33 +901,15 @@ transform: translate(0%, -101.35%)
 	background-color: #D50780;
 }
 
-.pagination___two{
-	text-decoration: none;
-	color: #D50780;
-	padding: 10px;
-	border: 2px solid #E5E5E5;
-	font-size: 18px;
-}
-
-
-.pagination___three{
-	text-decoration: none;
-	color: #D50780;
-	padding: 10px;
-	border: 2px solid #E5E5E5;
-	border-left-style: none;
-	border-right-style: none;
-	font-size: 18px;
-}
-
 
 .pagination___next{
 	text-decoration: none;
-	color: #D50780;
+	color: #939393;
 	padding: 10px;
 	border: 2px solid #E5E5E5;
 	border-radius:  0px 7px 0px 0px;
 	font-size: 18px;
+	cursor: default;
 }
 /*----------------------------------------------- gallery */
 .div___container___yellow{
@@ -1362,13 +1305,6 @@ padding-left: 10vw;
 	  display: flex;
 	}
 
-	.gallery__tittle__left {
-    font-weight: 500;
-    position: absolute;
-    transform: translate(0%, 0%)rotate(0deg);
-    color: #D50780;
-	}
-
 	.gallery___text___ima {
    display: none;
 	}
@@ -1390,13 +1326,6 @@ padding-left: 10vw;
     text-align: initial;
 	}
 
-	.overlay__img__gallery {
-    height: 500px;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: rgb(252 234 38 / 30%);
-    transform: translate(0%, -108.2%);
-	}
 	.overlay__img__gallery2 {
     height: 500px;
     opacity: 0;
@@ -1418,13 +1347,6 @@ padding-left: 10vw;
     opacity: 0;
     background-color: rgb(252 234 38 / 30%);
     transform: translate(0%, -113.7%);
-	}
-
-	.overlay__img__gallery5 {
-    height: 360px;
-    opacity: 0;
-    background-color: rgb(252 234 38 / 30%);
-    transform: translate(0%, -111.4%);
 	}
 
 	.overlay__img__gallery6 {
@@ -1454,12 +1376,6 @@ padding-left: 10vw;
     color: #D50780;
 	}
 
-.gallery__tittle__left5 {
-    font-weight: 500;
-    position: absolute;
-    transform: translate(0%, 0%)rotate(0deg);
-    color: #D50780;
-	}
 
 	.gallery__tittle__left6 {
     font-weight: 500;
@@ -1639,56 +1555,48 @@ padding-left: 10vw;
     margin-top: 120px;
 	}
 
-	.overlay__img__gallery {
-    display: none;
-	}
 	.gallery___item:nth-child(2) {
     grid-row-start: span 3;
     grid-column-start: span 7;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
 	}
 
 	.overlay__img__gallery2 {
     display: none;
 	}
 
-	.gallery___item:nth-child(14) {
+	.gallery___item:nth-child(4) {
     grid-row-start: span 3;
     grid-column-start: span 7;
-    margin-top: -899px;
     padding-left: 0px;
-    padding-top: 0px;
     padding-right: 0px;
+    margin-top: -75px;
 	}
 	.overlay__img__gallery3 {
     display: none;
 	}
 
-	.gallery___item:nth-child(15) {
+	.gallery___item:nth-child(14) {
     grid-row-start: span 3;
+    grid-column-start: span 7;
+    margin-top: -661px;
     padding-left: 0px;
+    padding-top: 0px;
     padding-right: 0px;
-    grid-column-start: 7 span;
-    margin-top: -803px;
 	}
 	.overlay__img__gallery4 {
     display: none;
 	}
 
-	.gallery___item:nth-child(20) {
+	.gallery___item:nth-child(19) {
     grid-row-start: span 2;
-    padding: 00px;
     grid-column-start: span 7;
-    margin-top: -546px;
+    padding: 0px;
+    margin-top: -265px;
 	}
-	.overlay__img__gallery5 {
-    display: none;
-	}
-	.gallery___item:nth-child(24) {
-    grid-row-start: span 2;
-    padding-right: 0px;
-    grid-column-start: span 7;
-    margin-top: -148px;
-	}
+
 	.overlay__img__gallery6 {
     display: none;
 	}

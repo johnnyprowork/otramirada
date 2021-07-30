@@ -1,0 +1,31 @@
+@media screen and (max-width:$tamaño6){
+	.image__world {
+    width: 20%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -44%;
+    margin-left: 24%;
+	}
+}
+
+@media screen and (max-width:$tamaño7){
+
+	.container___tittle {
+    color: #D50780;
+    font-size: 11vw;
+    font-weight: 700;
+    margin-top: 30%;
+    margin-left: -8px;
+    text-align: center;
+    margin-bottom: 34px;
+	}
+	.image__world {
+	    width: 20%;
+	    z-index: -1;
+	    position: absolute;
+	    object-fit: cover;
+	    margin-top: -43%;
+	    margin-left: 31%;
+	}
+}

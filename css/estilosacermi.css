@@ -1,35 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-/* line 2, ../../sccs work project/scss/_acercamain.scss */
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_acercamain.scss */
 * {
   padding: 0;
   margin: 0;
   font-family: "Poppins";
 }
 
-/* line 11, ../../sccs work project/scss/_acercamain.scss */
+/* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_acercamain.scss */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
 }
 
-/* line 19, ../../sccs work project/scss/_acercamain.scss */
+/* line 19, F:/trabajo johnny/descargas/sccs work project/scss/_acercamain.scss */
 .row {
   width: 100%;
 }
 
-/* line 23, ../../sccs work project/scss/_acercamain.scss */
+/* line 23, F:/trabajo johnny/descargas/sccs work project/scss/_acercamain.scss */
 ul {
   padding-inline-start: 0px;
 }
 
-/* line 28, ../../sccs work project/scss/_acercamain.scss */
+/* line 28, F:/trabajo johnny/descargas/sccs work project/scss/_acercamain.scss */
 h1 {
   color: #D50780;
 }
 
-/* line 2, ../../sccs work project/scss/_acercanav.scss */
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .body {
   overflow-x: hidden;
   position: relative;
@@ -38,7 +38,7 @@ h1 {
   background-color: white;
 }
 
-/* line 10, ../../sccs work project/scss/_acercanav.scss */
+/* line 10, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav1 {
   text-align: center;
   width: 100%;
@@ -48,14 +48,14 @@ h1 {
   display: flex;
 }
 
-/* line 18, ../../sccs work project/scss/_acercanav.scss */
+/* line 18, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___ul___left {
   display: inline-block;
   list-style-type: none;
   margin-top: 0px;
 }
 
-/* line 24, ../../sccs work project/scss/_acercanav.scss */
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___a___img {
   display: inline-block;
   padding-left: 6%;
@@ -65,14 +65,14 @@ h1 {
   height: 100%;
 }
 
-/* line 34, ../../sccs work project/scss/_acercanav.scss */
+/* line 34, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___ul___right {
   display: inline-block;
   list-style-type: none;
   margin-top: 0px;
 }
 
-/* line 41, ../../sccs work project/scss/_acercanav.scss */
+/* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___li {
   display: inline-block;
   margin-top: 15px;
@@ -84,24 +84,24 @@ h1 {
   font-weight: 500;
 }
 
-/* line 52, ../../sccs work project/scss/_acercanav.scss */
+/* line 52, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___li a {
   color: #D50780;
   text-decoration: none;
   text-align: center;
 }
 
-/* line 57, ../../sccs work project/scss/_acercanav.scss */
+/* line 57, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___li :hover > a {
   color: #FCEA21;
 }
 
-/* line 62, ../../sccs work project/scss/_acercanav.scss */
+/* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___li :hover {
   color: #FCEA21;
 }
 
-/* line 65, ../../sccs work project/scss/_acercanav.scss */
+/* line 65, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___li .background__menu {
   background-color: #D50780;
   width: 147px;
@@ -113,7 +113,7 @@ h1 {
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
 }
 
-/* line 80, ../../sccs work project/scss/_acercanav.scss */
+/* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .nav___background___scroll {
   position: fixed;
   z-index: 100;
@@ -122,7 +122,7 @@ h1 {
   transition: all 1s;
 }
 
-/* line 88, ../../sccs work project/scss/_acercanav.scss */
+/* line 88, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .special__shape {
   position: absolute;
   width: 110%;
@@ -141,22 +141,22 @@ h1 {
   }
 }
 
-/* line 106, ../../sccs work project/scss/_acercanav.scss */
+/* line 106, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .special__shape__delect {
   width: 0;
 }
 
-/* line 111, ../../sccs work project/scss/_acercanav.scss */
+/* line 111, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .menu-wrapper {
   display: none;
 }
 
-/* line 114, ../../sccs work project/scss/_acercanav.scss */
+/* line 114, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav.scss */
 .logo__otramirada__hamburger {
   display: none;
 }
 
-/* line 1, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .div___obj___static {
   width: 10px;
   position: absolute;
@@ -165,7 +165,7 @@ h1 {
   margin-left: 80px;
 }
 
-/* line 8, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 8, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .div___obj___static .obj___static {
   transform: rotate(270deg);
   text-orientation: upright;
@@ -180,26 +180,26 @@ h1 {
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
 }
 
-/* line 22, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 22, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .div___obj___static .obj___static:hover {
   transition: 0.5s;
   padding: 20px;
   background-color: #FF39AF;
 }
 
-/* line 29, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 29, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .div___obj___static .obj___static.active {
   background-color: #890B5F;
   transition: 0.5s;
   z-index: 40;
 }
 
-/* line 35, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .div___obj___static .obj___static.active:hover {
   padding: 10px;
 }
 
-/* line 42, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 42, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .background__follow.active {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
@@ -212,7 +212,7 @@ h1 {
   z-index: -1;
 }
 
-/* line 54, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 54, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow2 {
   transform: rotate(270deg);
   text-orientation: upright;
@@ -228,7 +228,7 @@ h1 {
   bottom: 340px;
 }
 
-/* line 61, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 61, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow2:hover {
   text-decoration-line: overline;
   text-decoration-color: #D50780;
@@ -238,7 +238,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-/* line 67, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 67, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow3 {
   transform: rotate(270deg);
   text-orientation: upright;
@@ -254,7 +254,7 @@ h1 {
   bottom: 440px;
 }
 
-/* line 73, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 73, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow3:hover {
   text-decoration-line: overline;
   text-decoration-color: #D50780;
@@ -262,7 +262,7 @@ h1 {
   animation-iteration-count: 1;
 }
 
-/* line 78, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 78, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow4 {
   transform: rotate(270deg);
   text-orientation: upright;
@@ -278,7 +278,7 @@ h1 {
   bottom: 540px;
 }
 
-/* line 84, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 84, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow4:hover {
   text-decoration-line: overline;
   text-decoration-color: #D50780;
@@ -286,34 +286,34 @@ h1 {
   animation-iteration-count: 1;
 }
 
-/* line 88, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 88, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow2.active {
   visibility: visible;
   color: #D50780;
   opacity: 1.0;
 }
 
-/* line 92, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 92, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow3.active {
   visibility: visible;
   color: #D50780;
   opacity: 1.0;
 }
 
-/* line 96, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 96, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 .obj___static___follow4.active {
   visibility: visible;
   color: #D50780;
   opacity: 1.0;
 }
 
-/* line 100, ../../sccs work project/scss/_acercamenuestatico.scss */
+/* line 100, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico.scss */
 a.obj___static {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-/* line 2, ../../sccs work project/scss/_acercaseccion1.scss */
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1.scss */
 .div___container {
   display: block;
   width: 70%;
@@ -322,7 +322,7 @@ a.obj___static {
   margin-left: 13%;
 }
 
-/* line 10, ../../sccs work project/scss/_acercaseccion1.scss */
+/* line 10, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1.scss */
 .container___tittle {
   color: #D50780;
   font-size: 9vw;
@@ -332,7 +332,7 @@ a.obj___static {
   margin-top: 30%;
 }
 
-/* line 20, ../../sccs work project/scss/_acercaseccion1.scss */
+/* line 20, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1.scss */
 .image__hand {
   width: 20%;
   z-index: -1;
@@ -342,7 +342,7 @@ a.obj___static {
   margin-left: -13%;
 }
 
-/* line 30, ../../sccs work project/scss/_acercaseccion1.scss */
+/* line 30, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1.scss */
 .container___tittle___textbody {
   font-weight: 500;
   white-space: pre-line;
@@ -351,7 +351,7 @@ a.obj___static {
   line-height: 35pt;
 }
 
-/* line 1, ../../sccs work project/scss/_acercaseccion2.scss */
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2.scss */
 .container___tittle2 {
   color: #D50780;
   font-size: 7vw;
@@ -361,7 +361,7 @@ a.obj___static {
   margin-top: 20%;
 }
 
-/* line 9, ../../sccs work project/scss/_acercaseccion2.scss */
+/* line 9, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2.scss */
 .container___subtittle1 {
   margin-top: 15%;
   font-size: 5vw;
@@ -371,7 +371,7 @@ a.obj___static {
   color: #000000;
 }
 
-/* line 18, ../../sccs work project/scss/_acercaseccion2.scss */
+/* line 18, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2.scss */
 .line__subtittle {
   padding-top: 40%;
   height: 80%;
@@ -379,39 +379,39 @@ a.obj___static {
   height: 15vw;
 }
 
-/* line 24, ../../sccs work project/scss/_acercaseccion2.scss */
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2.scss */
 .container___subtittle1___design {
   line-height: 2.5;
 }
 
-/* line 28, ../../sccs work project/scss/_acercaseccion2.scss */
+/* line 28, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2.scss */
 .container___subtittle1___development {
   line-height: 2.5;
 }
 
-/* line 3, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 3, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .mod__margin {
   padding: 0;
 }
 
-/* line 7, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 7, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .mod__fullwidth {
   margin: 0;
   padding: 0;
   margin-top: 4vh;
 }
 
-/* line 13, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 13, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .container___cv1 {
   background-color: #D50780;
 }
 
-/* line 17, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 17, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .container___cv2 {
   background-color: #FCEA21;
 }
 
-/* line 21, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 21, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .container___cv1___tittle {
   color: #FFFFFF;
   font-size: 7vw;
@@ -421,12 +421,12 @@ a.obj___static {
   margin-left: 25%;
 }
 
-/* line 31, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 31, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .prueba {
   height: 20vh;
 }
 
-/* line 35, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 img.mod_img__myphoto_ch {
   transition: all linear 0.3s;
   display: block;
@@ -436,7 +436,7 @@ img.mod_img__myphoto_ch {
   cursor: pointer;
 }
 
-/* line 46, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 46, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 img.mod_img__myphoto_ch2 {
   opacity: 0;
   transition: all linear 1s;
@@ -447,17 +447,17 @@ img.mod_img__myphoto_ch2 {
   cursor: pointer;
 }
 
-/* line 59, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 59, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .col-lg-2:hover .mod_img__myphoto_ch {
   opacity: 0;
 }
 
-/* line 64, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 64, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 .col-lg-2:hover .mod_img__myphoto_ch2 {
   opacity: 1;
 }
 
-/* line 68, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 68, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button {
   position: relative;
   display: inline-block;
@@ -468,7 +468,7 @@ button {
   text-decoration: none;
 }
 
-/* line 80, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more {
   font-weight: 400;
   color: #D50780;
@@ -485,7 +485,7 @@ button.learn-more {
   margin-top: -15%;
 }
 
-/* line 96, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 96, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more::before {
   position: absolute;
   content: "";
@@ -502,32 +502,32 @@ button.learn-more::before {
   transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
-/* line 112, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 112, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more:hover {
   background: #D50780;
   transform: translate(0, 0.25em);
   color: #FFFFFF;
 }
 
-/* line 117, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 117, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more:hover::before {
   transform: translate3d(0, 0.5em, -1em);
 }
 
-/* line 120, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 120, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more:active {
   background: #D50780;
   transform: translate(0em, 0.75em);
   border: 2px solid #FFFFFF;
 }
 
-/* line 125, ../../sccs work project/scss/_acercaseccion3.scss */
+/* line 125, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3.scss */
 button.learn-more:active::before {
   box-shadow: 0 0 0 2px #FFFFFF, 0 0 #FFFFFF;
   transform: translate3d(0, 0, -1em);
 }
 
-/* line 1, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .container___tittle3 {
   color: #D50780;
   font-size: 7vw;
@@ -539,7 +539,7 @@ button.learn-more:active::before {
 }
 
 /* tarjetas hover */
-/* line 15, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 15, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-block .btn-outline-primary {
   width: 100%;
   border-top-left-radius: 0;
@@ -549,18 +549,18 @@ button.learn-more:active::before {
   position: absolute;
 }
 
-/* line 24, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card {
   margin: 20px 0;
 }
 
 /* Flip Cards CSS */
-/* line 29, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 29, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-container {
   perspective: 700px;
 }
 
-/* line 32, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 32, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-flip {
   position: relative;
   width: 100%;
@@ -571,7 +571,7 @@ button.learn-more:active::before {
   border: none;
 }
 
-/* line 41, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .img__card__abilities {
   padding-top: 8vh;
   margin-bottom: 2vh;
@@ -579,7 +579,7 @@ button.learn-more:active::before {
   padding-right: 2em;
 }
 
-/* line 49, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 49, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-flip div {
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -588,45 +588,45 @@ button.learn-more:active::before {
   border: none;
 }
 
-/* line 57, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 57, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-flip .front {
   position: relative;
   z-index: 1;
 }
 
-/* line 62, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .text_back {
   margin-top: -152px;
 }
 
-/* line 68, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 68, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-flip .back {
   position: relative;
   z-index: 0;
   transform: rotateY(-180deg);
 }
 
-/* line 74, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 74, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-container:hover .card-flip {
   transform: rotateY(180deg);
 }
 
-/* line 78, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 78, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-block1 {
   background-color: #D50780;
 }
 
-/* line 83, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 83, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-block_background .front {
   display: none;
 }
 
-/* line 86, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 86, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-block_background .back {
   margin-top: 10px;
 }
 
-/* line 89, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 89, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-title1 {
   font-family: 'Poppins';
   font-size: 1em;
@@ -634,12 +634,12 @@ button.learn-more:active::before {
   font-style: italic;
 }
 
-/* line 97, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 97, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-block2 {
   background-color: #FCEA21;
 }
 
-/* line 102, ../../sccs work project/scss/_acercaseccion4.scss */
+/* line 102, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion4.scss */
 .card-title2 {
   font-family: "Poppins";
   font-size: 1em;
@@ -648,7 +648,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 1440px) {
-  /* line 4, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 4, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___background___scroll {
     position: fixed;
     z-index: 100;
@@ -660,7 +660,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 1403px) {
-  /* line 16, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 16, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .special__shape {
     position: absolute;
     width: 134%;
@@ -669,25 +669,25 @@ button.learn-more:active::before {
     animation: taadaa 0.5s;
     transform: translate(75px, -2px);
   }
-  /* line 24, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .menu-wrapper {
     display: none;
   }
-  /* line 27, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 27, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .logo__otramirada__hamburger {
     display: none;
   }
 }
 
 @media screen and (max-width: 1278px) {
-  /* line 35, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___ul___left {
     display: inline-block;
     list-style-type: none;
     margin-top: 0px;
     margin-left: 2%;
   }
-  /* line 41, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___li {
     display: inline-block;
     margin-top: 15px;
@@ -698,37 +698,37 @@ button.learn-more:active::before {
     font-size: 21px;
     font-weight: 500;
   }
-  /* line 54, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 54, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .logo__otramirada__hamburger {
     display: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 62, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .menu__scroll {
     display: none;
   }
-  /* line 66, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 66, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .logo__otramirada__hamburger {
     display: inline-block;
   }
-  /* line 70, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 70, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___a___img {
     display: inline-block;
     margin-left: 39vw;
     margin-top: -3%;
     margin-bottom: 7%;
   }
-  /* line 77, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 77, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .div___container___scroll {
     margin-left: 82%;
   }
-  /* line 81, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 81, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav1 {
     display: none;
   }
-  /* line 86, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 86, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .menu-wrapper {
     background: transparent;
     width: 10%;
@@ -738,7 +738,7 @@ button.learn-more:active::before {
     top: 10px;
     z-index: 20;
   }
-  /* line 96, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 96, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .menu-wrapper.active {
     background: transparent;
     width: 100%;
@@ -746,14 +746,14 @@ button.learn-more:active::before {
     position: fixed;
     z-index: 200;
   }
-  /* line 104, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 104, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-menu {
     position: relative;
     width: 100%;
     height: 100%;
     background: transparent;
   }
-  /* line 112, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 112, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn {
     display: flex;
     align-items: center;
@@ -769,15 +769,15 @@ button.learn-more:active::before {
     top: 20px;
     left: 20px;
   }
-  /* line 127, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 127, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn.active .material-hamburguer:before {
     transform: scale(25);
   }
-  /* line 130, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 130, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer {
     transition: all 0.2s ease-out;
   }
-  /* line 133, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 133, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer:before {
     content: "";
     position: absolute;
@@ -792,36 +792,36 @@ button.learn-more:active::before {
     transform: scale(1);
     transition: all 0.35s ease-out;
   }
-  /* line 147, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 147, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer .material-patty {
     width: 32px;
     height: 4px;
     background: #D50780;
     transition: all 0.2s ease-out;
   }
-  /* line 153, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 153, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer .material-patty:not(:last-child) {
     margin-bottom: 6px;
   }
-  /* line 156, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 156, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer.material-close {
     transform: rotate(-180deg);
   }
-  /* line 160, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 160, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer.material-close .material-patty:nth-child(1) {
     transform: translate(9px, 4px) rotate(45deg) scale(0.5, 1);
   }
-  /* line 163, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 163, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-btn .material-hamburguer.material-close .material-patty:nth-child(3) {
     transform: translate(9px, -4px) rotate(-45deg) scale(0.5, 1);
   }
-  /* line 167, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 167, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content {
     position: relative;
     z-index: -1;
     display: none;
   }
-  /* line 172, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 172, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content nav {
     height: 40vh;
     position: absolute;
@@ -829,25 +829,25 @@ button.learn-more:active::before {
     padding: 15%;
     padding-top: 0%;
   }
-  /* line 179, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 179, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content nav li {
     margin-bottom: 40px;
     transition: all 0.3s ease-out;
     transform: translateY(70px);
     opacity: 0;
   }
-  /* line 185, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 185, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content nav li.active {
     transform: translateY(0px);
     opacity: 1;
   }
-  /* line 191, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 191, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content a {
     font-size: 4vw;
     color: #D50780;
     transition: all 0.3s ease-out;
   }
-  /* line 196, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 196, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .material-content.active {
     z-index: 2;
     display: flex;
@@ -855,7 +855,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 580px) {
-  /* line 204, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 204, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___a___img {
     display: inline-block;
     margin-left: 36vw;
@@ -865,7 +865,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 414px) {
-  /* line 215, ../../sccs work project/scss/_acercanav_responsive.scss */
+  /* line 215, F:/trabajo johnny/descargas/sccs work project/scss/_acercanav_responsive.scss */
   .nav___a___img {
     display: inline-block;
     margin-left: 33vw;
@@ -875,8 +875,8 @@ button.learn-more:active::before {
   }
 }
 
-@media screen and (max-width: 580px) {
-  /* line 4, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
+@media screen and (max-height: 750px) {
+  /* line 4, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
   .div___obj___static {
     width: 10px;
     position: absolute;
@@ -884,43 +884,21 @@ button.learn-more:active::before {
     margin-left: 80px;
     z-index: 11;
   }
-  /* line 11, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
+  /* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
   .div___obj___static .obj___static {
     transform: rotate(270deg);
     text-orientation: upright;
     position: fixed;
     background-color: #D50780;
     color: #FFFFFF;
-    padding: 5px;
+    padding: 10px;
     font-size: 16px;
-    bottom: 118px;
+    bottom: 100px;
     left: -30px;
     transition: 0.3s;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
   }
-  /* line 24, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
-  .div___obj___static .obj___static:hover {
-    transition: 0.5s;
-    padding: 14px;
-    background-color: #FF39AF;
-  }
-  /* line 29, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
-  .div___obj___static .obj___static.active:hover {
-    padding: 7px;
-  }
-  /* line 33, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
-  .background__follow.active {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 5px;
-    backdrop-filter: blur(10px);
-    padding: 15px 160px;
-    position: fixed;
-    left: -25px;
-    top: -3px;
-    transition: 0.3s;
-    z-index: -1;
-  }
-  /* line 45, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
+  /* line 28, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
   .obj___static___follow2 {
     transform: rotate(270deg);
     text-orientation: upright;
@@ -935,7 +913,7 @@ button.learn-more:active::before {
     padding: 10px;
     bottom: 220px;
   }
-  /* line 52, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
+  /* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
   .obj___static___follow3 {
     transform: rotate(270deg);
     text-orientation: upright;
@@ -950,7 +928,99 @@ button.learn-more:active::before {
     padding: 5px;
     bottom: 329px;
   }
-  /* line 58, ../../sccs work project/scss/_acercamenuestatico_responsive.scss */
+  /* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .obj___static___follow4 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 422px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* line 51, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .div___obj___static {
+    width: 10px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 80px;
+    z-index: 11;
+  }
+  /* line 58, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .div___obj___static .obj___static {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    background-color: #D50780;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 16px;
+    bottom: 118px;
+    left: -30px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
+  }
+  /* line 71, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .div___obj___static .obj___static:hover {
+    transition: 0.5s;
+    padding: 14px;
+    background-color: #FF39AF;
+  }
+  /* line 76, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .div___obj___static .obj___static.active:hover {
+    padding: 7px;
+  }
+  /* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .background__follow.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 15px 160px;
+    position: fixed;
+    left: -25px;
+    top: -3px;
+    transition: 0.3s;
+    z-index: -1;
+  }
+  /* line 92, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .obj___static___follow2 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 10px;
+    bottom: 220px;
+  }
+  /* line 99, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
+  .obj___static___follow3 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 329px;
+  }
+  /* line 105, F:/trabajo johnny/descargas/sccs work project/scss/_acercamenuestatico_responsive.scss */
   .obj___static___follow4 {
     transform: rotate(270deg);
     text-orientation: upright;
@@ -968,7 +1038,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 844px) {
-  /* line 2, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 3, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .container___tittle {
     color: #D50780;
     font-size: 9vw;
@@ -979,7 +1049,7 @@ button.learn-more:active::before {
     margin-left: 7%;
     margin-bottom: 20%;
   }
-  /* line 13, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 14, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .image__hand {
     width: 20%;
     z-index: -1;
@@ -988,7 +1058,7 @@ button.learn-more:active::before {
     margin-top: -52%;
     margin-left: 23%;
   }
-  /* line 22, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 23, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .container___tittle___textbody {
     font-weight: 500;
     white-space: pre-line;
@@ -1000,7 +1070,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 580px) {
-  /* line 36, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 37, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .container___tittle {
     color: #D50780;
     font-size: 9vw;
@@ -1011,7 +1081,7 @@ button.learn-more:active::before {
     margin-left: 10%;
     margin-bottom: 20%;
   }
-  /* line 47, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 48, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .image__hand {
     width: 20%;
     z-index: -1;
@@ -1020,7 +1090,7 @@ button.learn-more:active::before {
     margin-top: -52%;
     margin-left: 28%;
   }
-  /* line 56, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 57, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .container___tittle___textbody {
     font-weight: 500;
     white-space: pre-line;
@@ -1034,7 +1104,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 414px) {
-  /* line 71, ../../sccs work project/scss/_acercaseccion1_responsive.scss */
+  /* line 72, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion1_responsive.scss */
   .container___tittle {
     color: #D50780;
     font-size: 9vw;
@@ -1048,14 +1118,14 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 2, ../../sccs work project/scss/_acercaseccion2_responsive.scss */
+  /* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2_responsive.scss */
   .line__subtittle {
     display: none;
   }
 }
 
 @media screen and (max-width: 844px) {
-  /* line 8, ../../sccs work project/scss/_acercaseccion2_responsive.scss */
+  /* line 8, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2_responsive.scss */
   .container___tittle2 {
     color: #D50780;
     font-size: 7vw;
@@ -1069,7 +1139,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 414px) {
-  /* line 22, ../../sccs work project/scss/_acercaseccion2_responsive.scss */
+  /* line 22, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2_responsive.scss */
   .container___subtittle1 {
     margin-top: 15%;
     font-size: 5vw;
@@ -1079,12 +1149,12 @@ button.learn-more:active::before {
     color: #000000;
     margin-left: 6%;
   }
-  /* line 32, ../../sccs work project/scss/_acercaseccion2_responsive.scss */
+  /* line 32, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2_responsive.scss */
   .container___subtittle1___design {
     line-height: 2.5;
     margin-left: 6%;
   }
-  /* line 37, ../../sccs work project/scss/_acercaseccion2_responsive.scss */
+  /* line 37, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion2_responsive.scss */
   .container___subtittle1___development {
     line-height: 2.5;
     margin-left: 6%;
@@ -1092,7 +1162,7 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 2, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   .container___cv1___tittle {
     color: #FFFFFF;
     font-size: 5vw;
@@ -1101,12 +1171,12 @@ button.learn-more:active::before {
     margin-bottom: 11%;
     margin-left: 33%;
   }
-  /* line 11, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   .container___cv2 {
     background-color: #FCEA21;
     height: 475px;
   }
-  /* line 17, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 17, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   button.learn-more {
     font-weight: 400;
     color: #D50780;
@@ -1125,12 +1195,12 @@ button.learn-more:active::before {
 }
 
 @media screen and (max-width: 414px) {
-  /* line 37, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 37, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   .container___cv1 {
     background-color: #D50780;
     padding-bottom: 30px;
   }
-  /* line 41, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   .container___cv1___tittle {
     color: #FFFFFF;
     font-size: 5vw;
@@ -1139,7 +1209,7 @@ button.learn-more:active::before {
     margin-bottom: 11%;
     margin-left: 35%;
   }
-  /* line 50, ../../sccs work project/scss/_acercaseccion3_responsive.scss */
+  /* line 50, F:/trabajo johnny/descargas/sccs work project/scss/_acercaseccion3_responsive.scss */
   button.learn-more {
     font-weight: 400;
     color: #D50780;
@@ -1157,12 +1227,12 @@ button.learn-more:active::before {
   }
 }
 
-/* line 1, ../../sccs work project/scss/_acercafooter.scss */
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .grey {
   background-color: #E5E5E5;
 }
 
-/* line 6, ../../sccs work project/scss/_acercafooter.scss */
+/* line 6, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .container___footer {
   padding-top: 6vh;
   padding-bottom: 6vh;
@@ -1170,20 +1240,20 @@ button.learn-more:active::before {
   margin-top: 13vh;
 }
 
-/* line 13, ../../sccs work project/scss/_acercafooter.scss */
+/* line 13, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .row___footer {
   padding-left: 10vw;
   padding-top: 3vh;
 }
 
-/* line 18, ../../sccs work project/scss/_acercafooter.scss */
+/* line 18, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer___ul___box1 {
   list-style-type: none;
   padding-left: 0rem;
   line-height: 1.2;
 }
 
-/* line 24, ../../sccs work project/scss/_acercafooter.scss */
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer__h1___box1 {
   font-size: 20px;
   margin-bottom: 2vh;
@@ -1191,12 +1261,12 @@ button.learn-more:active::before {
   font-weight: 700;
 }
 
-/* line 31, ../../sccs work project/scss/_acercafooter.scss */
+/* line 31, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer___li___box1 {
   margin-top: 1vh;
 }
 
-/* line 35, ../../sccs work project/scss/_acercafooter.scss */
+/* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer___a___box1 {
   text-decoration: none;
   font-family: 'Roboto Condensed';
@@ -1204,18 +1274,18 @@ button.learn-more:active::before {
   color: #686767;
 }
 
-/* line 43, ../../sccs work project/scss/_acercafooter.scss */
+/* line 43, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .line__footer__text {
   transform: scaleX(0);
 }
 
-/* line 47, ../../sccs work project/scss/_acercafooter.scss */
+/* line 47, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer___a___box1:hover {
   font-weight: 600;
   color: #686767;
 }
 
-/* line 53, ../../sccs work project/scss/_acercafooter.scss */
+/* line 53, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer___a___box1:hover .line__footer__text {
   content: "";
   position: absolute;
@@ -1229,14 +1299,14 @@ button.learn-more:active::before {
   border-radius: 50px;
 }
 
-/* line 67, ../../sccs work project/scss/_acercafooter.scss */
+/* line 67, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .hr__line {
   height: 0.2vh;
   background-color: #686767;
   opacity: 1;
 }
 
-/* line 73, ../../sccs work project/scss/_acercafooter.scss */
+/* line 73, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer__h1 {
   font-weight: 400;
   font-size: 15px;
@@ -1244,7 +1314,7 @@ button.learn-more:active::before {
   text-align: center;
 }
 
-/* line 80, ../../sccs work project/scss/_acercafooter.scss */
+/* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_acercafooter.scss */
 .footer__h1__2 {
   font-weight: 600;
   font-size: 15px;

@@ -1,164 +1,919 @@
-	
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomain.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomain.scss */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
 
-*{
-	padding:0;
-	margin: 0;
-	font-family: 'Poppins', sans-serif;
+/* line 19, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomain.scss */
+.row {
+  width: 100%;
+}
 
-		}
+/* line 23, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomain.scss */
+ul {
+  padding-inline-start: 0px;
+}
 
-	ul{
+/* line 28, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomain.scss */
+h1 {
+  color: #D50780;
+}
 
-		padding-inline-start: 0px;
-	}
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.body {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
 
-	h1{
+/* line 10, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav1 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
-		color:#D50780;
-	}
+/* line 18, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___ul___left {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 0px;
+}
 
-	.body{
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___a___img {
+  display: inline-block;
+  padding-left: 6%;
+  padding-right: 12%;
+  padding-top: 20px;
+  width: 110px;
+  height: 100%;
+}
 
-		margin:0px;
-		 overflow-x:hidden;
-		
-	}
+/* line 34, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___ul___right {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 0px;
+}
 
+/* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  color: #D50780;
+  font-family: "Poppins", "sans-serif";
+  font-size: 18px;
+  font-weight: 500;
+}
 
-	/*----------------------------------------------- Menu styles */
+/* line 52, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___li a {
+  color: #D50780;
+  text-decoration: none;
+  text-align: center;
+}
 
-	
-	.nav {
-	  text-align:center;
-	  width: 100%;
-	  height: 100%;
-	  justify-content: center;
-	  align-items: center;
-	  display: flex;
-	}
+/* line 57, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___li :hover > a {
+  color: #FCEA21;
+}
 
-	.nav___ul___left{
-		display: inline-block;
-		list-style-type: none;
-		margin-top: 0px;
+/* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___li :hover {
+  color: #FCEA21;
+}
 
-		
+/* line 65, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___li .background__menu {
+  background-color: #D50780;
+  width: 106px;
+  height: 18px;
+  position: absolute;
+  top: -3px;
+  transform: translate(-13px, 0px);
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
+}
 
-	}
+/* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.nav___background___scroll {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  transition: all 1s;
+}
 
-	.nav___ul___right{
-		display: inline-block;
-		list-style-type: none;
-		margin-top: 0px;	
-		
-	}
+/* line 88, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.special__shape {
+  position: absolute;
+  width: 110%;
+  height: 100%;
+  z-index: -1;
+  animation: taadaa 0.5s;
+  transform: translate(75px, -2px);
+}
 
-	.nav___a___img{
-		display: inline-block;
-		padding-left:6% ;
-		padding-right:6%;
-		padding-top: 20px;
-		width: 150px;
-		height: 100%;
-		
-	}
+@keyframes taadaa {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+/* line 106, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.special__shape__delect {
+  width: 0;
+}
 
-	/*------------------------------ Hover Animation text */
-	.nav___li{
-		
-		display: inline-block;
-		margin-top: 15px;
-		margin-right: 30px;
-		margin-bottom: 15px;
-		color:#D50780;
-		font-family: 'Poppins', sans-serif;
-		font-size: 24px;
-		font-weight:500 ;
-	}
+/* line 111, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.menu-wrapper {
+  display: none;
+}
 
-	.nav___li:hover > a {
-	color: #FCEA21;
-	
-	}
+/* line 114, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav.scss */
+.logo__otramirada__hamburger {
+  display: none;
+}
 
-	.nav___li:hover {
-	color: #FCEA21;
-	}
+@media screen and (max-width: 1440px) {
+  /* line 4, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___background___scroll {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    transition: all 1s;
+    left: -1%;
+  }
+}
 
+@media screen and (max-width: 1403px) {
+  /* line 16, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .special__shape {
+    position: absolute;
+    width: 134%;
+    height: 100%;
+    z-index: -1;
+    animation: taadaa 0.5s;
+    transform: translate(75px, -2px);
+  }
+  /* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .menu-wrapper {
+    display: none;
+  }
+  /* line 27, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .logo__otramirada__hamburger {
+    display: none;
+  }
+}
 
-	.nav___li a{
-	color:#D50780;
-	text-decoration: none;
-	text-align: center;
+@media screen and (max-width: 1278px) {
+  /* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___ul___left {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 2%;
+  }
+  /* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    color: #D50780;
+    font-family: "Poppins", "sans-serif";
+    font-size: 21px;
+    font-weight: 500;
+  }
+  /* line 54, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .logo__otramirada__hamburger {
+    display: none;
+  }
+}
 
-	}
+@media screen and (max-width: 1200px) {
+  /* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .menu__scroll {
+    display: none;
+  }
+  /* line 66, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .logo__otramirada__hamburger {
+    display: inline-block;
+  }
+  /* line 70, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___a___img {
+    display: inline-block;
+    margin-left: 39vw;
+    margin-top: -3%;
+    margin-bottom: 7%;
+  }
+  /* line 77, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .div___container___scroll {
+    margin-left: 82%;
+  }
+  /* line 81, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav1 {
+    display: none;
+  }
+  /* line 86, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .menu-wrapper {
+    background: transparent;
+    width: 10%;
+    height: 10%;
+    position: fixed;
+    display: initial;
+    top: 10px;
+    z-index: 20;
+  }
+  /* line 96, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .menu-wrapper.active {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+  }
+  /* line 104, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  /* line 112, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: transparent;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  /* line 127, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn.active .material-hamburguer:before {
+    transform: scale(25);
+  }
+  /* line 130, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer {
+    transition: all 0.2s ease-out;
+  }
+  /* line 133, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    z-index: -1;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: all 0.35s ease-out;
+  }
+  /* line 147, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer .material-patty {
+    width: 32px;
+    height: 4px;
+    background: #D50780;
+    transition: all 0.2s ease-out;
+  }
+  /* line 153, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer .material-patty:not(:last-child) {
+    margin-bottom: 6px;
+  }
+  /* line 156, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer.material-close {
+    transform: rotate(-180deg);
+  }
+  /* line 160, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer.material-close .material-patty:nth-child(1) {
+    transform: translate(9px, 4px) rotate(45deg) scale(0.5, 1);
+  }
+  /* line 163, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-btn .material-hamburguer.material-close .material-patty:nth-child(3) {
+    transform: translate(9px, -4px) rotate(-45deg) scale(0.5, 1);
+  }
+  /* line 167, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content {
+    position: relative;
+    z-index: -1;
+    display: none;
+  }
+  /* line 172, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content nav {
+    height: 40vh;
+    position: absolute;
+    top: 100px;
+    padding: 15%;
+    padding-top: 0%;
+  }
+  /* line 179, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content nav li {
+    margin-bottom: 40px;
+    transition: all 0.3s ease-out;
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  /* line 185, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content nav li.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  /* line 191, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content a {
+    font-size: 4vw;
+    color: #D50780;
+    transition: all 0.3s ease-out;
+  }
+  /* line 196, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .material-content.active {
+    z-index: 2;
+    display: flex;
+  }
+}
 
-	/*------------------------------ Hover Animation text */
+@media screen and (max-width: 580px) {
+  /* line 204, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___a___img {
+    display: inline-block;
+    margin-left: 36vw;
+    margin-top: -3%;
+    margin-bottom: 7%;
+  }
+}
 
+@media screen and (max-width: 414px) {
+  /* line 215, F:/trabajo johnny/descargas/sccs work project/scss/_servicionav_responsive.scss */
+  .nav___a___img {
+    display: inline-block;
+    margin-left: 33vw;
+    margin-top: -1%;
+    margin-bottom: 7%;
+    width: 87px;
+  }
+}
 
-	/*----------------------------------------------- Menu styles */
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.div___obj___static {
+  width: 10px;
+  position: absolute;
+  z-index: 5;
+  margin-top: 600px;
+  margin-left: 80px;
+}
 
+/* line 8, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.div___obj___static .obj___static {
+  transform: rotate(270deg);
+  text-orientation: upright;
+  position: fixed;
+  background-color: #D50780;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 18px;
+  bottom: 220px;
+  left: -30px;
+  transition: 0.3s;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
+  border: none;
+}
 
+/* line 23, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.div___obj___static .obj___static:hover {
+  transition: 0.5s;
+  padding: 20px;
+  background-color: #FF39AF;
+}
 
+/* line 30, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.div___obj___static .obj___static.active {
+  background-color: #890B5F;
+  transition: 0.5s;
+  z-index: 40;
+}
 
+/* line 36, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.div___obj___static .obj___static.active:hover {
+  padding: 10px;
+}
 
+/* line 43, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.background__follow.active {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  padding: 20px 160px;
+  position: fixed;
+  left: -25px;
+  top: -3px;
+  transition: 0.3s;
+  z-index: -1;
+}
 
-	/*----------------------------------------------- services styles */
+/* line 55, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow2 {
+  transform: rotate(270deg);
+  text-orientation: upright;
+  position: fixed;
+  font-size: 14px;
+  text-decoration: none;
+  visibility: hidden;
+  left: -20px;
+  transition: 0.3s;
+  opacity: 0.0;
+  color: #D50780;
+  padding: 10px;
+  bottom: 340px;
+}
 
-	.div___container{
-		display: block;
-		width: 70%;
-		height: 100%;
-	 	text-align: center;
-	 	margin-left: 13%;
-	}
+/* line 62, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow2:hover {
+  text-decoration-line: overline;
+  text-decoration-color: #D50780;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
 
-	.div___container____table{
-		margin:30px auto;
-	}
+/* line 68, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow3 {
+  transform: rotate(270deg);
+  text-orientation: upright;
+  position: fixed;
+  font-size: 14px;
+  text-decoration: none;
+  visibility: hidden;
+  left: -20px;
+  transition: 0.3s;
+  opacity: 0.0;
+  color: #D50780;
+  padding: 5px;
+  bottom: 440px;
+}
 
+/* line 74, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow3:hover {
+  text-decoration-line: overline;
+  text-decoration-color: #D50780;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+}
 
-	.div___container___table___row{
-		display: table;
-		width: 80%;
-		margin: 10px auto;
-		background: transparent;
-		padding: 12px 0;
-		color: #555;
-		font-size: 15px;
-		box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
-		color: #D50780;
-		font-family: 'Lato', sans-serif;
-	}
+/* line 79, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow4 {
+  transform: rotate(270deg);
+  text-orientation: upright;
+  position: fixed;
+  font-size: 14px;
+  text-decoration: none;
+  visibility: hidden;
+  left: -20px;
+  transition: 0.3s;
+  opacity: 0.0;
+  color: #D50780;
+  padding: 5px;
+  bottom: 540px;
+}
 
-	.div___container___table___row___cell___title{
-		display: table-cell;
-		width: 30%;
-		text-align: center;
-		padding:4px 0;
-		border-right: 1px solid #FFFFFF;
-		vertical-align: middle;
-		
-	}
+/* line 85, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow4:hover {
+  text-decoration-line: overline;
+  text-decoration-color: #D50780;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+}
 
-	.div___container___table___row___cell{
-		display: table-cell;
-		width: 30%;
-		text-align: center;
-		padding:4px 0;
-		border-right: 1px solid #D50780;
-		vertical-align: middle;
-	}
+/* line 89, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow2.active {
+  visibility: visible;
+  color: #D50780;
+  opacity: 1.0;
+}
 
-	#title___style____table{
-	color: #FCEA21;
-		font-family: 'Lato', sans-serif;
-		font-size: 25px;
+/* line 93, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow3.active {
+  visibility: visible;
+  color: #D50780;
+  opacity: 1.0;
+}
 
-	}
+/* line 97, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+.obj___static___follow4.active {
+  visibility: visible;
+  color: #D50780;
+  opacity: 1.0;
+}
 
-		/*----------------------------------------------- services styles */
+/* line 101, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico.scss */
+a.obj___static {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1.scss */
+.container___tittle {
+  color: #D50780;
+  font-size: 11vw;
+  font-weight: 700;
+  margin-top: 30%;
+  margin-left: -90px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1.scss */
+.image__world {
+  width: 20%;
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  margin-top: -24%;
+  margin-left: 45%;
+}
+
+/* line 20, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1.scss */
+.container__subtittle {
+  width: 90%;
+}
+
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1.scss */
+.container___subtittle___textbody {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.5em;
+  color: #000000;
+  font-weight: 300;
+}
+
+/* line 33, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1.scss */
+.ajust_image_work {
+  width: 40%;
+  margin-left: 31%;
+}
+
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion2.scss */
+.container___tittle2 {
+  color: #D50780;
+  font-size: 5vw;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: -90px;
+  text-align: initial;
+  margin-bottom: 70px;
+}
+
+/* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion2.scss */
+.size___tittle2 {
+  width: 60%;
+  margin-left: 26%;
+}
+
+/* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion3.scss */
+.container___tittle3 {
+  color: #D50780;
+  font-size: 5vw;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: -90px;
+  text-align: initial;
+  margin-bottom: 70px;
+}
+
+/* line 13, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion3.scss */
+.size___tittle3 {
+  width: 70%;
+  margin-left: 26%;
+}
+
+/* line 17, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion3.scss */
+.subttile__card {
+  color: #D50780;
+  font-weight: 700;
+}
+
+@media screen and (max-height: 750px) {
+  /* line 4, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static {
+    width: 10px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 80px;
+    z-index: 11;
+  }
+  /* line 11, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static .obj___static {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    background-color: #D50780;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    bottom: 100px;
+    left: -30px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
+  }
+  /* line 28, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow2 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 10px;
+    bottom: 220px;
+  }
+  /* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow3 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 329px;
+  }
+  /* line 41, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow4 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 422px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* line 51, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static {
+    width: 10px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 80px;
+    z-index: 11;
+  }
+  /* line 58, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static .obj___static {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    background-color: #D50780;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 16px;
+    bottom: 118px;
+    left: -30px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.61);
+  }
+  /* line 71, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static .obj___static:hover {
+    transition: 0.5s;
+    padding: 14px;
+    background-color: #FF39AF;
+  }
+  /* line 76, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .div___obj___static .obj___static.active:hover {
+    padding: 7px;
+  }
+  /* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .background__follow.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 15px 160px;
+    position: fixed;
+    left: -25px;
+    top: -3px;
+    transition: 0.3s;
+    z-index: -1;
+  }
+  /* line 92, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow2 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 10px;
+    bottom: 220px;
+  }
+  /* line 99, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow3 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 329px;
+  }
+  /* line 105, F:/trabajo johnny/descargas/sccs work project/scss/_serviciomenuestatico_responsive.scss */
+  .obj___static___follow4 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+    padding: 5px;
+    bottom: 422px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  /* line 2, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1_responsive.scss */
+  .image__world {
+    width: 20%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -44%;
+    margin-left: 24%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* line 14, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1_responsive.scss */
+  .container___tittle {
+    color: #D50780;
+    font-size: 11vw;
+    font-weight: 700;
+    margin-top: 30%;
+    margin-left: -8px;
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  /* line 23, F:/trabajo johnny/descargas/sccs work project/scss/_servicioseccion1_responsive.scss */
+  .image__world {
+    width: 20%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -43%;
+    margin-left: 31%;
+  }
+}
+
+/* line 1, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.grey {
+  background-color: #E5E5E5;
+}
+
+/* line 6, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.container___footer {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  background-color: #E5E5E5;
+  margin-top: 13vh;
+}
+
+/* line 13, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.row___footer {
+  padding-left: 10vw;
+  padding-top: 3vh;
+}
+
+/* line 18, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer___ul___box1 {
+  list-style-type: none;
+  padding-left: 0rem;
+  line-height: 1.2;
+}
+
+/* line 24, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer__h1___box1 {
+  font-size: 20px;
+  margin-bottom: 2vh;
+  color: #686767;
+  font-weight: 700;
+}
+
+/* line 31, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer___li___box1 {
+  margin-top: 1vh;
+}
+
+/* line 35, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer___a___box1 {
+  text-decoration: none;
+  font-family: 'Roboto Condensed';
+  font-size: 15px;
+  color: #686767;
+}
+
+/* line 43, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.line__footer__text {
+  transform: scaleX(0);
+}
+
+/* line 47, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer___a___box1:hover {
+  font-weight: 600;
+  color: #686767;
+}
+
+/* line 53, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer___a___box1:hover .line__footer__text {
+  content: "";
+  position: absolute;
+  width: 6%;
+  height: 5px;
+  background-color: #D50780;
+  z-index: 1;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  border-radius: 50px;
+}
+
+/* line 67, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.hr__line {
+  height: 0.2vh;
+  background-color: #686767;
+  opacity: 1;
+}
+
+/* line 73, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer__h1 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #686767;
+  text-align: center;
+}
+
+/* line 80, F:/trabajo johnny/descargas/sccs work project/scss/_serviciofooter.scss */
+.footer__h1__2 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6vh;
+  color: #686767;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estiloservicios.css.map */
